@@ -23,7 +23,7 @@ public class GuestbookController {
 	public String index(Model model) {
 		List<GuestbookVo> list = guestbookRepository.find();
 		for (GuestbookVo guestbookVo : list) {
-			guestbookVo.setRegDate(guestbookVo.getRegDate().substring(0, 16));
+			guestbookVo.setRegDate(guestbookVo.getRegDate().substring(0, 19));
 		}
 		model.addAttribute("list", list);
 		return "/WEB-INF/views/index.jsp";
