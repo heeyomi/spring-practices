@@ -8,9 +8,12 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.stereotype.Repository;
+
 import com.douzone.emaillist.vo.EmaillistVo;
 
-public class EmaillistDao {
+@Repository
+public class EmaillistRepository {
 	public Boolean insert(EmaillistVo vo) {
 		Connection conn = null;
 		PreparedStatement pstmt = null;
