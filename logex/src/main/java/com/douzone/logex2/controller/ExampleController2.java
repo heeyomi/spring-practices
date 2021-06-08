@@ -12,7 +12,7 @@ public class ExampleController2 {
 	/**
 	 *  Logger 생성
 	 */
-	private static final Log LOG = LogFactory.getLog( ExampleController2.class );
+	private static final Log LOGGER = LogFactory.getLog( ExampleController2.class );
 	
 	
 	@RequestMapping( "/ex2" )
@@ -36,10 +36,10 @@ public class ExampleController2 {
 		 *  5. 이 로거의 로그 레벨이 INFO 인 것도 로그 파일에서 확인해 보세요.   
 		 */
 
-		LOG.debug( "#ex2 - debug log" );
-		LOG.info( "#ex2 - info log" );
-		LOG.warn( "#ex2 - warn log" );
-		LOG.error( "#ex2 - error log" );
+		LOGGER.debug( "#ex2 - debug log" );
+		LOGGER.info( "#ex2 - info log" );
+		LOGGER.warn( "#ex2 - warn log" );
+		LOGGER.error( "#ex2 - error log" );
 		
 		return "Logback Logging Example2";
 	}
