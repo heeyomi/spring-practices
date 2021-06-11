@@ -28,7 +28,6 @@
 		mapping="/images/**" />
 
 	<context:annotation-config />
-	<context:component-scan
-		base-package="com.douzone.fileupload.controller" />
+	<context:component-scan base-package="com.douzone.fileupload.controller" />
 
 </beans>

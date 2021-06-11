@@ -50,5 +50,6 @@
 		<module>logex</module>
 		<module>aoptest</module>
 		<module>fileupload</module>
+		<module>contatiner</module>
 	</modules>
 </project>
