@@ -1,4 +1,4 @@
-package com.douzone.cotainer.user;
+package com.douzone.container.user;
 
 import org.springframework.stereotype.Component;
 
