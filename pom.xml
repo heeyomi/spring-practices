@@ -52,5 +52,6 @@
 		<module>fileupload</module>
 		<module>contatiner</module>
 		<module>hellospring04</module>
+		<module>hellospring05</module>
 	</modules>
 </project>
