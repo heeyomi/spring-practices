@@ -53,5 +53,6 @@
 		<module>contatiner</module>
 		<module>hellospring04</module>
 		<module>hellospring05</module>
+		<module>hellospring06</module>
 	</modules>
 </project>
